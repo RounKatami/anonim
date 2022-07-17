@@ -1,0 +1,31 @@
+.material-navmenu{
+    border: 5px solid orangered;
+    background-color: grey;
+}
+
+.material-navmenu li{
+    position: relative;
+}
+
+.material-navmenu ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+ul.vidy_viruses-menu-active {
+    display: block;
+}
+
+.stih{
+    margin: 5px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    border: 5px solid grey;
+    background-color: grey;
+    padding: 15px;
+    width: 473px;
+}

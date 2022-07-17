@@ -1,0 +1,319 @@
+body{
+    margin: 0%;
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    /*font-size: 16px;*/
+    line-height: 1.4;
+    /*min-width: 320px;*/
+    /*overflow-x: hidden;*/
+    font-weight: 0 auto;
+    background-color: rgb(27, 27, 27);
+    min-width: 1500px;
+    /*text-transform: uppercase;*/
+    margin: 0 0 25px 0;
+    /*height: 900vh;*/
+}
+
+.navbar--fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 1500px;
+    transition: all .4s ease-in-out;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+}
+
+.navbar{
+    width: 100%;
+    height:70px;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    transition: all .2s ease;
+    box-shadow: 0 4px 10px brown;
+    transition: all .9s ease-in-out;
+}
+
+.navbar .container{
+    text-transform: uppercase;
+    background-color: grey;
+    height:  inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+.navbar-menu li {
+    font-size: 19px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    line-height: 50%;
+    display: inline-block;
+    color:brown;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+    line-height: 100%;
+    display: inline-block;
+    opacity: 5.19;
+    color:red;
+    transition: all .09s ease-in-out;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/*.content{
+    height: 5000px;
+}*/
+
+/*.callback{
+    margin-left: 30 px;
+    padding: 15px 35px;
+    background-color: coral;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(255, 127, 80, .7);
+    text-decoration: none;
+}
+
+.callback:hover {
+    display: inline-block;
+    transform: scale(1.04);
+    transition: all .1s ease-in-out;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .9);
+    color:white;
+}*/
+
+.navbar-brand{
+    font-weight: 700;
+    margin: 0;
+    font-size: 26px;
+    text-decoration: none;
+    color:black;
+}
+
+/*.navbar-brand:hover{
+    display: inline-block;
+    /*font-size: 30px;
+    color:coral;
+    transition: all .09s ease-in-out;
+}*/
+
+.first{
+    height: 103px;
+}
+
+.body_material{
+    height: inherit;
+
+}
+
+.image1_text{
+    color: brown;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.hr{
+    border: none;
+    margin-top: -15px;
+    height: 3px;
+    color: white;
+    background-color: white;
+}
+
+.material-navmenu{
+    margin: 5px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    border: 5px solid orangered;
+    background-color: grey;
+    padding: 15px;
+    width: 380px;
+}
+
+.pod{
+    margin-left: 35px;
+}
+
+.pod-pod{
+    margin-left: 55px;
+}
+
+.material-navmenu li a {
+    /*line-height: 50%;*/
+    /*display: inline-block;*/
+    color:black;
+    text-decoration: none;
+}
+
+.material-navmenu li {
+    padding: 5px;
+    
+    /*display: inline-block;*/
+}
+
+.material-navmenu li a:hover {
+    /*line-height: 50%;*/
+    /*display: inline-block;*/
+    color:orangered;
+    transition: all .09s ease-in-out;
+    text-decoration: none;
+}
+
+/*.material-navmenu li a:hover {
+    line-height: 100%;
+    display: inline-block;
+    opacity: 5.19;
+    color:red;
+    transition: all .09s ease-in-out;
+    background-color: red;
+    box-shadow: 0 3px 2px brown;
+} */
+
+.h1{
+    text-align: center;
+    color: brown;
+}
+
+.comp-virus{
+    color: red;
+}
+
+.main-p{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.p1{
+    margin-left: 30px;
+}
+
+.p1-1{
+    margin-left: 30px;
+}
+
+.spis-virus{
+    font-size: 25px;
+    margin-left: 40px;
+    color: red;
+}
+
+.o-nas1{
+    margin-left: 40px;
+}
+
+/*.worm1{
+    color: white;
+    margin-left: 70px;
+}
+
+.worm2{
+    color: white;
+    margin-left: 70px;
+}
+
+.worm3{
+    color: white;
+    margin-left: 70px;
+}*/
+
+.spis-virus1{
+    color: white;
+    font-size: 25px;
+    margin-left: 70px;
+}
+
+.change-lang{
+    background-color: grey;
+    border: none;
+}
+
+.change-lang:hover{
+    background-color: brown;
+    border: none;
+}
+
+.individ{
+    color: red;
+}
+
+
+
+.instagram-p{
+    font-size: 40px;
+    display: inline-block;
+    color: brown;
+    margin-left: 23%;
+    margin-top: 0px;
+}
+
+.instagram-logo{
+    display: inline-block;
+}
+
+.telegram-logo{
+    display: inline-block;
+}
+
+.telegram-p{
+    font-size: 40px;
+    /*display: inline-block;*/
+    color: brown;
+    margin-left: -45px;
+    margin-top: 0px;
+}
+
+.gmail-logo{
+    display: inline-block;
+}
+
+.gmail-p{
+    font-size: 40px;
+    color: brown;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.version{
+    color: brown;
+    font-size: 20px;
+    margin-top: -180px;
+    margin-left: 1495px;
+}
+
+.footer{
+    margin-top: none;
+    height: 150px;
+}
+
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        top: -50px;
+    }
+
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}

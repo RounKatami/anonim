@@ -1,0 +1,18 @@
+.v-0-0-21, .v-0-0-31{
+    color: brown;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.v-0-0-22, .v-0-0-23, .v-0-0-32, .v-0-0-33, .v-0-0-34{
+    color: white;
+    font-size: 25px;
+    margin-left: 75px;
+}
+
+.version{
+    color: white;
+    font-size: 20px;
+    margin-top: -180px;
+    margin-left: 1485px;
+}
